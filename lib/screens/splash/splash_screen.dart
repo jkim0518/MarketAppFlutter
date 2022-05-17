@@ -21,7 +21,7 @@ class SpalshScreen extends StatelessWidget {
             Expanded(flex: 5,
             child: Center(
               child: Text(
-                "MarketApp",
+                "Foodie",
               style: GoogleFonts.pacifico(fontSize: 28, color: Colors.white),
               ),
             ),

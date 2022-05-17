@@ -16,7 +16,7 @@ class MarketApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: "Market App",
+      title: "Foodie",
       initialRoute: SpalshScreen.routeName,
       routes: route,
       theme: theme(),

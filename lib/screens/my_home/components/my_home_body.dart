@@ -9,7 +9,7 @@ class MyHomeBody extends StatelessWidget {
     return Column(
       children: [
         MyHomeHeader(),
-        buildPaddingTextMenuCard("비회원 주문 조회", () {}),
+        buildPaddingTextMenuCard("Track your order", () {}),
         SizedBox(
           height: 330,
           child: ListView.separated(
@@ -28,7 +28,7 @@ class MyHomeBody extends StatelessWidget {
             itemCount: textMenuList.length,
           ),
         ),
-        buildPaddingTextMenuCard("컬리 소개", () {}),
+        buildPaddingTextMenuCard("About Foodie", () {}),
       ],
     );
   }

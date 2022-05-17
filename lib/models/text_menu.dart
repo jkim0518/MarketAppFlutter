@@ -13,10 +13,10 @@ class TextMenu {
 
 // Menu Data
 List<TextMenu> textMenuList = [
-  TextMenu(text: "배송 안내", icon: Icon(Icons.arrow_right), path: "/"),
-  TextMenu(text: "공지 사항", icon: Icon(Icons.arrow_right), path: "/"),
-  TextMenu(text: "자주하는 질문", icon: Icon(Icons.arrow_right), path: "/"),
-  TextMenu(text: "고객센터", icon: Icon(Icons.arrow_right), path: "/"),
-  TextMenu(text: "이용안내", icon: Icon(Icons.arrow_right), path: "/"),
-  TextMenu(text: "컬리 소개", icon: Icon(Icons.arrow_right), path: "/"),
+  TextMenu(text: "Delivery Information", icon: Icon(Icons.arrow_right), path: "/"),
+  TextMenu(text: "Announcements", icon: Icon(Icons.arrow_right), path: "/"),
+  TextMenu(text: "FAQ", icon: Icon(Icons.arrow_right), path: "/"),
+  TextMenu(text: "Customer Service", icon: Icon(Icons.arrow_right), path: "/"),
+  TextMenu(text: "About Foodie", icon: Icon(Icons.arrow_right), path: "/"),
+  TextMenu(text: "Terms and Conditions", icon: Icon(Icons.arrow_right), path: "/"),
 ];

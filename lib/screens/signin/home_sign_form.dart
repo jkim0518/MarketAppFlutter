@@ -74,8 +74,8 @@ class _KurlySignFromState extends State<KurlySignFrom> {
       },
       decoration: InputDecoration(
         border: outlineInputBorder(kTextColor),
-       // focusedBorder: outlineInputBorder(kPrimaryColor),
-       // errorBorder: outlineInputBorder(kPrimaryColor),
+        focusedBorder: outlineInputBorder(kPrimaryColour),
+        errorBorder: outlineInputBorder(kPrimaryColour),
         disabledBorder: InputBorder.none,
         contentPadding: EdgeInsets.only(left: 16, top: 15, bottom: 15),
         filled: true,
@@ -107,8 +107,8 @@ class _KurlySignFromState extends State<KurlySignFrom> {
       },
       decoration: InputDecoration(
         border: outlineInputBorder(kTextColor),
-       // focusedBorder: outlineInputBorder(kPrimaryColor),
-      // errorBorder: outlineInputBorder(kPrimaryColor),
+        focusedBorder: outlineInputBorder(kPrimaryColour),
+       errorBorder: outlineInputBorder(kPrimaryColour),
         disabledBorder: InputBorder.none,
         contentPadding: EdgeInsets.only(left: 16, top: 15, bottom: 15),
         filled: true,
